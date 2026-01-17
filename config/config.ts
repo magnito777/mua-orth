@@ -2,10 +2,10 @@
 import express from "express";
 import type { Request, Response } from "express";
 
-import sql from "../db"
+import sql from "../db.js"
 
 
-import { getLogs } from "../utils/logger";
+import { getLogs } from "../utils/logger.js";
 
 const router = express.Router();
 

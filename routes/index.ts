@@ -1,6 +1,6 @@
 import express from "express";
-import homeRouter from "./home";
-import dashboardRouter from "./dashboard";
+import homeRouter from "./home.js";
+import dashboardRouter from "./dashboard.js";
 
 const router = express.Router();
 
